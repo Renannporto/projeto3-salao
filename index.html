@@ -28,12 +28,6 @@ body{
     width: 100%;
 }
 
-#header-salao h1{
-    font-family: ojuju, sans-serif;
-    font-weight: 200;
-    font-size: 36px;
-}
-
 .navbar{
     background-color: black;
 }
@@ -98,9 +92,19 @@ body{
 }
 
 @media (max-width: 767px){
-.carousel-item img{
-    height: 280px;
+    .carousel-item img{
+        height: 280px;
+    }
 }
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .carousel-item img{
+        height: 500px;
+    }
+
+    .col-md-3{
+        flex: 0 0 50%;
+    }
 }
 </style>
 <body>
